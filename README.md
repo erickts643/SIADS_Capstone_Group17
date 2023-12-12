@@ -15,8 +15,12 @@ Our code is stored in Jupyter notebooks that can be all be run independently.  T
 
 Note: Some of our notebooks connect with our database hosted on the AWS environment.  As per the given specifications for this Repo, we have removed the user login credentials to the AWS environment.  Please reach out to us if necessary. 
 
+# Data access
+Provenance of the two main datasets:
+1. Historical archive of daily options data: Archived by one of our team members over a number of years. The data was available through a paid subscription to the Chicago Mercantile Exchange (CME).  For our purposes, the data was stored in an AWS S3 bucket, databased, and accessed via our Jupyter Notebooks. 
+2. Reddit Text Data: Downloaded archive from the-eye.eu in Z standard compression format, extracted posts and comments in JSON. Then uploaded the extracted text (5.6 GB) into an AWS database.
+
+Additional Data sourced via API as depicted in our Data Flow diagram below.
+
 # Data Flow
 ![image](https://github.com/erickts643/SIADS_Capstone_Group17/assets/127133109/c66b33f2-4f0c-4fe5-a181-82a69d7389c1)
-
-# Final Outputs
-The content for our final paper was produced in our Jupyter notebooks found in this repo. They depict our coding process that generated visualizations and insights.  Those outputs and the methodology involved are discussed in our final paper as well as used in our final dashboard.
