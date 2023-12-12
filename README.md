@@ -1,5 +1,6 @@
 # Combining Market Data and Reddit Sentiment for Equity Event Prediction 
-## MADS Capstone - Team Safari
+MADS Capstone - Team Safari
+Last Update: December 2023
 
 # Introduction
 Our project examines the phenomenon of short squeezes in the stock market.  The main datasets of archived stock options chain data and Reddit WallStreetBets forum text were supplemented by public APIs Yahoo Finance, scraped data from Zacks.com, and imported data from Nasdaq. 
@@ -10,7 +11,7 @@ Our project examines the phenomenon of short squeezes in the stock market.  The 
 Requirements.txt file includes all the libaries required to run our code.
 
 ## Jupyter Notebooks
-Our code is found in the Jupyter_Notebooks folder of this repository.  If you have all the required libraries in the Requirements.txt file, you should be able to run the notebooks freely.
+Our code is stored in Jupyter notebooks that can be all be run independently.  They can be found in the Jupyter_Notebooks folder of this repository.  As long as you have the required libraries listed in the Requirements.txt file, you should be able to run the notebooks freely.
 
 Note: Some of our notebooks connect with our database hosted on the AWS environment.  As per the given specifications for this Repo, we have removed the user login credentials to the AWS environment.  Please reach out to us if necessary. 
 
