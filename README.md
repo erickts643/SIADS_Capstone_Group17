@@ -1,6 +1,5 @@
-# SIADS_Capstone_Group17
-
-Welcome to the SIADS_Capstone_Group17 wiki!
+# Combining Market Data and Reddit Sentiment for Equity Event Prediction 
+## MADS Capstone - Team Safari
 
 # Introduction
 Our project examines the phenomenon of short squeezes in the stock market.  The main datasets of archived stock options chain data and Reddit WallStreetBets forum text were supplemented by public APIs Yahoo Finance, scraped data from Zacks.com, and imported data from Nasdaq. 
