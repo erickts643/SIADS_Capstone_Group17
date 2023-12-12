@@ -1,5 +1,6 @@
 # Combining Market Data and Reddit Sentiment for Equity Event Prediction 
 MADS Capstone - Team Safari
+
 Last Update: December 2023
 
 # Introduction
